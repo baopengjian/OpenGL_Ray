@@ -1,10 +1,15 @@
 package bpj.com.opengl_ray;
 
 import android.Manifest;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+
+import bpj.com.opengl_ray.first.FirstActivity;
+import bpj.com.opengl_ray.second.SecondActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,8 +24,17 @@ public class MainActivity extends AppCompatActivity {
             Manifest.permission.CAMERA
     };
     private static final int REQUEST_EXTERNAL_STORAGE = 1;
+
     private void getPermission() {
         ActivityCompat.requestPermissions(this,
                 PERMISSIONS_STORAGE, REQUEST_EXTERNAL_STORAGE);
+    }
+
+    public void first(View view) {
+        startActivity(new Intent(MainActivity.this, FirstActivity.class));
+    }
+
+    public void second(View view) {
+        startActivity(new Intent(MainActivity.this, SecondActivity.class));
     }
 }

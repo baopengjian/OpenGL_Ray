@@ -1,4 +1,4 @@
-package bpj.com.opengl_ray.widget;
+package bpj.com.opengl_ray.first.widget;
 
 import android.content.Context;
 import android.opengl.GLSurfaceView;

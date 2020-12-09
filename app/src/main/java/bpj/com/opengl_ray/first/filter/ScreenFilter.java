@@ -1,4 +1,4 @@
-package bpj.com.opengl_ray.filter;
+package bpj.com.opengl_ray.first.filter;
 
 import android.content.Context;
 import android.opengl.GLES11Ext;
@@ -9,7 +9,7 @@ import java.nio.ByteOrder;
 import java.nio.FloatBuffer;
 
 import bpj.com.opengl_ray.R;
-import bpj.com.opengl_ray.util.OpenUtils;
+import bpj.com.opengl_ray.first.util.OpenUtils;
 
 /**
  * 负责往屏幕上渲染

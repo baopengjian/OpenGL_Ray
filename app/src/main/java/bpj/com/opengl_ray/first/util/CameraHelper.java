@@ -1,10 +1,8 @@
-package bpj.com.opengl_ray.util;
+package bpj.com.opengl_ray.first.util;
 
 import android.graphics.ImageFormat;
 import android.graphics.SurfaceTexture;
 import android.hardware.Camera;
-import android.opengl.GLSurfaceView;
-import android.view.SurfaceHolder;
 
 public class CameraHelper implements Camera.PreviewCallback {
 

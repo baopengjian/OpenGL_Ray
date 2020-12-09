@@ -1,4 +1,4 @@
-package bpj.com.opengl_ray.util;
+package bpj.com.opengl_ray.first.util;
 
 import android.content.Context;
 
