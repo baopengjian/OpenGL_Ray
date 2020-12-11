@@ -10,6 +10,7 @@ import android.view.View;
 
 import bpj.com.opengl_ray.first.FirstActivity;
 import bpj.com.opengl_ray.second.SecondActivity;
+import bpj.com.opengl_ray.third.ThirdActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,7 +22,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private static String[] PERMISSIONS_STORAGE = {
-            Manifest.permission.CAMERA
+            Manifest.permission.CAMERA,
+            Manifest.permission.WRITE_EXTERNAL_STORAGE
     };
     private static final int REQUEST_EXTERNAL_STORAGE = 1;
 
@@ -36,5 +38,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void second(View view) {
         startActivity(new Intent(MainActivity.this, SecondActivity.class));
+    }
+
+    public void third(View view) {
+        startActivity(new Intent(MainActivity.this, ThirdActivity.class));
     }
 }

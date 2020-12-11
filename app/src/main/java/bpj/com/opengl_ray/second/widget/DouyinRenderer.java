@@ -9,7 +9,7 @@ import android.opengl.GLSurfaceView;
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
-import bpj.com.opengl_ray.first.util.CameraHelper;
+import bpj.com.opengl_ray.CameraHelper;
 import bpj.com.opengl_ray.second.filter.CameraFilter;
 import bpj.com.opengl_ray.second.filter.ScreenFilter;
 

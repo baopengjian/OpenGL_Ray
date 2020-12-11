@@ -11,8 +11,6 @@ import java.nio.FloatBuffer;
 import bpj.com.opengl_ray.second.util.OpenGLUtils;
 
 /**
- * @author Lance
- * @date 2018/10/31
  */
 public abstract class AbstractFilter {
 

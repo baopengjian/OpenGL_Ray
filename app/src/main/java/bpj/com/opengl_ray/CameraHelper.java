@@ -1,4 +1,4 @@
-package bpj.com.opengl_ray.first.util;
+package bpj.com.opengl_ray;
 
 import android.graphics.ImageFormat;
 import android.graphics.SurfaceTexture;
